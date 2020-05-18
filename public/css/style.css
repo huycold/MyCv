@@ -1,0 +1,111 @@
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 11rem;
+    max-height: 11rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.4);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    /* color: rgba(255,255,255,.7); */
+  }
+}
+.imgMp{
+  width:100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.imgNodemy{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height:360px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  background-color: white;
+
+}
+.education{
+  margin-top: 5px;
+}
+.progress {
+  border: 2px solid red;
+  border-radius: 12px;
+  width: 50%;
+  display: inline-block;
+  height: 50%;
+  margin: 10px;
+}
+#hu{
+  border: 2px solid red;
+  border-radius: 12px;
+  width: 50px;
+  background-color: blue;
+}
+.skill{
+  
+    display: flex;
+          flex-direction:row;
+  
+  
+}
+.inthepast{
+  margin-left: 50px;
+}
+.imgFrofile {
+  border-radius: 100% 2px black;
+  width: 5%;
+  margin-right: 20px;
+
+;
+}
+.infomation:hover{
+  color: blue;
+}
