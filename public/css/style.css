@@ -14,6 +14,12 @@
     width: 17rem;
     height: 100vh;
   }
+  .imgMp {
+    height: 360px;
+  }
+  .imgNodemy{
+    height: 360px;
+  }
   #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -53,10 +59,13 @@
     display: block;
     /* color: rgba(255,255,255,.7); */
   }
+  .content{
+    margin-left: 18rem;
+  }
 }
 .imgMp{
   width:100%;
-  height: auto;
+  height: 360px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -109,3 +118,41 @@ img:hover {
 .infomation:hover{
   color: blue;
 }
+a{
+  text-decoration: none;
+}
+
+  @-webkit-keyframes my {
+    0% { color: #F8CD0A; } 
+    50% { color: #fff;  } 
+    100% { color: #F8CD0A;  } 
+    }
+    @-moz-keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+    }
+    @-o-keyframes my { 
+    0% { color: #F8CD0A; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A;  } 
+    }
+    @keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+    } 
+    h1 {
+            width: 100%;
+            background:#3d3d3d;
+            font-size:24px;
+            font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+   }
+   h1{
+    text-transform: uppercase;
+   }
+  
