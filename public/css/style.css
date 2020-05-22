@@ -155,4 +155,8 @@ a{
    h1{
     text-transform: uppercase;
    }
-  
+  @media(max-width:992px){
+    .content{
+      margin-top: 60px;
+    }
+  }
